@@ -1,0 +1,52 @@
+
+.mid {
+	display: flex;
+	column-gap: 10px;
+	padding: 20px;
+	align-items: center;
+	position: relative;
+}
+
+.labels {
+	text-align: right;
+	width: 40%;
+}
+
+.box {
+	border-left: 1px solid black;
+	width: 60%;
+	padding: 0 10px;
+}
+
+input,
+select {
+	width: 100%;
+	padding: 10px;
+	background-color: rgba(245, 245, 245);
+	border: 0;
+}
+
+input:disabled {
+	background-color: rgb(206, 206, 206);
+}
+
+form {
+	border: 1px solid black;
+	width: 600px;
+	margin: auto;
+}
+
+button {
+	background-color: rgb(68, 159, 245);
+	border: 0px;
+	padding: 10px;
+	width: 80%;
+}
+
+.file-eg {
+	color: grey;
+	position: absolute;
+	bottom: 0;
+	padding: 0 10px;
+	left: 40%;
+}
